@@ -1,0 +1,19 @@
+/* exercise 1 */
+
+.ex-1-square {
+  transition: background-color 2s;
+}
+
+.ex-1-square:hover {
+  background-color: red;
+}
+
+/* exercise 2 */
+
+.ex-2-square {
+  transition: background-color 2s;
+}
+
+.ex-2-square:hover {
+  background-color: red;
+}
