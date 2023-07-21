@@ -81,3 +81,17 @@
   filter: grayscale(1) sepia(0.7);
   border-radius: 20px;
 }
+
+/* exercise 9 */
+
+
+.ex-9-img {
+  transition: all 2s;
+  overflow: hidden;
+}
+
+.ex-9-img:hover {
+  filter: grayscale(1) sepia(0.7);
+  scale: 1.5;
+  border-radius: 20px;
+}
