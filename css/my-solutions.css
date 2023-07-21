@@ -37,3 +37,17 @@
 .ex-4-square:hover {
   background-color: rgba(0, 0, 0, 0);
 }
+
+/* exercise 5 */
+
+.ex-5-square {
+  transition: scale 1s;
+}
+
+.ex-5-square:hover {
+  scale: 2;
+}
+
+.ex-5-square:active {
+  scale: 0.5;
+}
