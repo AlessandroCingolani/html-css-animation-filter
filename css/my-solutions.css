@@ -173,3 +173,55 @@
     right: 20% ;
   }
 }
+
+/* exercise 13 */
+
+
+.ex-13-button:hover .ex-13-top-white {
+ animation: move-linear-around 2s linear ;
+}
+
+@keyframes move-linear-around {
+  0% {
+    top: -5px;
+    left: 10%;
+  }
+
+  30% {
+    top: -5px;
+    left: calc(100% - 40px);
+  }
+ 
+  60% {
+    top: 50%;
+    left: calc(100% - 40px);  
+  }
+
+  80% {
+    left: 0;
+    top: 100%;
+  }
+
+  100% {
+    left: 0;
+    top: -10px;
+  }
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+ animation: move-linear-bottom-around 2s linear ;
+}
+
+@keyframes move-linear-bottom-around {
+  0% {
+    right: 20%;
+  }
+
+  50% {
+    right: calc(100% - 60px);
+  }
+ 
+  100% {
+    right: 20% ;
+  }
+}
