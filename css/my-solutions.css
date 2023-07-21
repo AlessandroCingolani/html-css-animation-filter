@@ -11,9 +11,9 @@
 /* exercise 2 */
 
 .ex-2-square {
-  transition: background-color 2s;
+  transition: width 2s;
 }
 
-.ex-2-square:hover {
-  background-color: red;
+.ex-2-square:active {
+  width: 100%;
 }
