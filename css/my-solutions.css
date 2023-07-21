@@ -68,3 +68,16 @@
 .ex-7-img:hover {
   filter: grayscale(1) sepia(0.7);
 }
+
+/* exercise 8 */
+
+
+.ex-8-img {
+  transition: all 1s;
+  overflow: hidden;
+}
+
+.ex-8-img:hover {
+  filter: grayscale(1) sepia(0.7);
+  border-radius: 20px;
+}
