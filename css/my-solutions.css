@@ -192,14 +192,19 @@
     left: calc(100% - 40px);
   }
  
-  50% {
+  40% {
     top: 100%;
     left: calc(100% - 40px);  
   }
 
-  75% {
+  65% {
     top: 100%;
     left: 0;
+  }
+
+  85% {
+    left: -10px;
+    top: -5px;
   }
 
   100% {
@@ -215,7 +220,7 @@
 @keyframes move-linear-bottom-around {
   0% {
     bottom: -5px;
-    right: 10%;
+    right: 20%;
   }
 
   25% {
@@ -223,18 +228,23 @@
     right: calc(100% - 40px);
   }
  
-  50% {
+  40% {
     bottom: 100%;
     right: calc(100% - 40px);  
   }
 
-  75% {
+  65% {
     bottom: 100%;
     right: 0;
   }
 
+  85% {
+    right: -10px;
+    bottom: -5px;
+  }
+
   100% {
-    right: 10%;
+    right: 20%;
     bottom: -5px;
   }
 }
