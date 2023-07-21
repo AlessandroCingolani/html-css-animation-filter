@@ -198,8 +198,8 @@
   }
 
   75% {
-    top: -5px;
-    left: calc(100% - 40px);
+    top: 100%;
+    left: 0;
   }
 
   100% {
@@ -229,8 +229,8 @@
   }
 
   75% {
-    bottom: -5px;
-    right: calc(100% - 40px);
+    bottom: 100%;
+    right: 0;
   }
 
   100% {
