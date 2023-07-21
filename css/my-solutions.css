@@ -107,7 +107,6 @@
   0% {
     transform: rotate(360deg);
   }
-
   100% {
     transform: rotate(0deg);
   }
@@ -117,10 +116,10 @@
 
 
 .ex-11-icon:hover {
- animation: spin 2s linear ;
+ animation: spin-and-return 2s linear ;
 }
 
-@keyframes spin {
+@keyframes spin-and-return {
   0% {
     transform: rotate(0deg);
   }
